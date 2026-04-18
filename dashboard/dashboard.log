@@ -1,0 +1,34 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.19.122.9:8501
+
+Failed to get ticker 'TSLA' reason: Expecting value: line 1 column 1 (char 0)
+TSLA: No price data found, symbol may be delisted (period=1d)
+2026-04-16 17:58:37.086 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/mugulinux/miniconda3/envs/twitter_env/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 542, in _run_script
+    exec(code, module.__dict__)
+  File "/mnt/d/MLDB_project/dashboard/app.py", line 79, in <module>
+    col1.metric("Stock Price", f"{latest_price:.2f}")
+TypeError: unsupported format string passed to NoneType.__format__
+Failed to get ticker 'TSLA' reason: Expecting value: line 1 column 1 (char 0)
+TSLA: No price data found, symbol may be delisted (period=1d)
+2026-04-16 17:58:37.846 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/mugulinux/miniconda3/envs/twitter_env/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 542, in _run_script
+    exec(code, module.__dict__)
+  File "/mnt/d/MLDB_project/dashboard/app.py", line 79, in <module>
+    col1.metric("Stock Price", f"{latest_price:.2f}")
+TypeError: unsupported format string passed to NoneType.__format__
+Failed to get ticker 'TSLA' reason: Expecting value: line 1 column 1 (char 0)
+TSLA: No price data found, symbol may be delisted (period=1d)
+2026-04-16 17:58:38.579 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/mugulinux/miniconda3/envs/twitter_env/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 542, in _run_script
+    exec(code, module.__dict__)
+  File "/mnt/d/MLDB_project/dashboard/app.py", line 79, in <module>
+    col1.metric("Stock Price", f"{latest_price:.2f}")
+TypeError: unsupported format string passed to NoneType.__format__
+  Stopping...
